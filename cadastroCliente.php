@@ -32,8 +32,7 @@
                     <label class="form-label"for="endereco">Endereço</label>
                     <input class="form-control" type="text" name="endereco" placeholder="Digite o endereco...">
                 </div>
-                <h2>Informações sobre seu processo</h2>
-                <div class="mb-3">
+                <div class="mb-3" action="addBancoP.php">
                     <label for="processo" class="form-label">Processo</label>
                     <select class="form-select" name="processo">
                         <option value="trabalhista">Trabalhista</option>

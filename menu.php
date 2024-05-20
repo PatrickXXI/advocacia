@@ -29,8 +29,15 @@
                             <li><a class="dropdown-item" href="cadastroAdvogado.php">Advogado</a></li>
                         </ul>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="lista.php">Lista</a>
+                    <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Listas
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="listaC.php">Lista Clientes</a></li>
+                            <li><a class="dropdown-item" href="listaA.php">Lista Advogados</a></li>
+                            <li><a class="dropdown-item" href="listaCeA.php">Lista Cliente/Advogado</a></li>
+                        </ul>
                     </li>
                 </ul>
             </div>
