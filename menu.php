@@ -39,6 +39,9 @@
                             <li><a class="dropdown-item" href="listaCeA.php">Lista Cliente/Advogado</a></li>
                         </ul>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.php">Desconectar</a>
+                    </li>
                 </ul>
             </div>
         </div>

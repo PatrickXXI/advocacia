@@ -21,7 +21,7 @@
                     <label class="form-label"for="senha">Senha</label>
                     <input class="form-control" type="password" name="senha" placeholder="Apenas numeros">
                 </div>
-                <input class="btn btn-outline-success" type="submit" value="Salvar">
+                <input class="btn btn-outline-success" type="submit" value="Entrar">
             </form>
             </div>
 

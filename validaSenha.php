@@ -8,7 +8,7 @@ if($nome != "patrick"){
 if(is_numeric($senha) && $senha != 1234){
     echo "Senha invalida!";
 }
-if($senha == 1234){
+if($senha == 1234 && $nome == "patrick"){
     header('Location: home.php');
     exit; // Garante que o script pare aqui e o redirecionamento funcione corretamente
 }
